@@ -78,11 +78,11 @@ Learning Points:
   * Odd length [1,2,3,4,5]: Math.floor(5/2) = 2
   * Even length [1,2,3,4]: Math.floor(4/2) = 2
 */
-let numbers = [1, 2, 3, 4, 5];
-console.log(numbers[numbers.length - 1]);  // 5
-console.log(numbers[Math.round(numbers.length/2 - 1)]);  // 3
+let numbers2 = [1, 2, 3, 4, 5];
+console.log(numbers2[numbers2.length - 1]);  // 5
+console.log(numbers2[Math.round(numbers2.length/2 - 1)]);  // 3
 // This is more usual: 
-console.log(numbers[Math.floor(numbers.length/2)]);
+console.log(numbers2[Math.floor(numbers2.length/2)]);
 // The reason why we use Math.floor():
 // When the array length is odd:
 // let odd = [1, 2, 3, 4, 5];  // odd.length == 5
